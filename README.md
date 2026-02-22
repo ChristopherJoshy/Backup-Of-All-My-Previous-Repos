@@ -85,7 +85,7 @@ This repository serves as a **backup archive** for my previous GitHub repositori
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
-| 🛰️ **[PROJECT-H.Y.D.R.A.](./PROJECT-H.Y.D.R.A.)** | 🥇 **NASA Space Apps Challenge 2025 Winner** — Real-time harmful algal bloom detection using NASA satellite data (HLS). NDCI algorithm, interactive maps, multi-temporal analysis. | Python, Streamlit, NASA APIs |
+| 🛰️ **[PROJECT-H.Y.D.R.A.](./PROJECT-H.Y.D.R.A.)** | NASA Space Apps Challenge 2025 — Real-time harmful algal bloom detection using NASA satellite data (HLS). NDCI algorithm, interactive maps, multi-temporal analysis. | Python, Streamlit, NASA APIs |
 | 🤖 **[WikiRunAi](./WikiRunAi)** | AI-powered Wikipedia explorer with LLM integration. FastAPI, WebSockets, MongoDB, embedding-based similarity search. | FastAPI, Python, MongoDB |
 | ❄️ **[Polaris-Bot](./Polaris-Bot)** | Discord bot for snowball combat with RPG progression, gambling, leveling, and Santa chat. | Python, Discord.py |
 | 📚 **[Ktu-Notes-Telegram-Bot](./Ktu-Notes-Telegram-Bot)** | Telegram bot for browsing and submitting academic resources. | Python, aiogram, MongoDB |
@@ -116,7 +116,8 @@ This repository serves as a **backup archive** for my previous GitHub repositori
 
 | Project | Description | Award |
 |---------|-------------|-------|
-| 🥇 **[PROJECT-H.Y.D.R.A.](./PROJECT-H.Y.D.R.A.)** | NASA Space Apps Challenge 2025 — Challenge 7: Data Pathways to Healthy Cities. Real-time harmful algal bloom detection protecting urban water supplies. | 🥇 **Winner** |
+| 🏛️ **[IEEE-CS-SIGHT-Web-Competition](./IEEE-CS-SIGHT-Web-Competition)** | IEEE SB CEK Society Website Design Competition — Built a responsive website targeting IEEE SIGHT Affinity Group with Home, About, Execom Members, Activities, Achievements, and Contact sections. | 🥇 **Winner** |
+| 🛰️ **[PROJECT-H.Y.D.R.A.](./PROJECT-H.Y.D.R.A.)** | NASA Space Apps Challenge 2025 — Challenge 7: Data Pathways to Healthy Cities. Real-time harmful algal bloom detection protecting urban water supplies using NASA satellite data (HLS). | 🌟 **Participant** |
 
 ---
 
