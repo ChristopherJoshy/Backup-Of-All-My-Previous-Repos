@@ -13,133 +13,143 @@
 ![GitHub stars](https://img.shields.io/github/stars/ChristopherJoshy/ProtfolioG?style=for-the-badge&color=gold)
 ![GitHub forks](https://img.shields.io/github/forks/ChristopherJoshy/ProtfolioG?style=for-the-badge&color=purple)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/ChristopherJoshy/ProtfolioG?style=for-the-badge&color=green)
+![Contributors](https://img.shields.io/github/contributors/ChristopherJoshy/ProtfolioG?style=for-the-badge&color=orange)
+![GitHub issues](https://img.shields.io/github/issues/ChristopherJoshy/ProtfolioG?style=for-the-badge&color=red)
+![GitHub watchers](https://img.shields.io/github/watchers/ChristopherJoshy/ProtfolioG?style=for-the-badge&color=yellow)
 
 </div>
 
+---
+
+## ⚡ Quick Stats
+
+<div align="center">
+
+| Metric | Value |
+|--------|-------|
+| **Type** | Interactive Portfolio |
+| **Framework** | React + TypeScript |
+| **Theme** | Medieval RPG |
+| **Status** | Active |
+| **License** | MIT |
+
+</div>
+
+---
+
 ## ✨ Features
 
-<details>
-<summary><b>🏰 Medieval RPG Theme</b></summary>
+<div align="center">
+<table>
+<tr>
+<td align="center" width="50%">
 
-<p align="center">
-<img width="600" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcmVtczlveHNvYXljZnVnbHVydHc0ZGw0M3JyaGs3dDh3YW03NzZzciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BHNfhgU63qrks/giphy.gif" alt="Medieval Theme">
-</p>
+### 🏰 Medieval RPG Theme
+Immersive medieval fantasy user interface with pixel art graphics and animations, RPG-style navigation, and magical visual effects.
 
-- Immersive medieval fantasy user interface
-- Pixel art graphics and animations
-- RPG-style navigation between sections
-- Magical visual effects and transitions
-</details>
+</td>
+<td align="center" width="50%">
 
-<details>
-<summary><b>⚔️ Interactive Zones</b></summary>
+### ⚔️ Interactive Zones
+Unique themed areas for different content:
+- 🏠 Home Village (Introduction)
+- 🎓 Education Guild Hall
+- 🛡️ Skills Armory
+- 🔮 Projects Forge
+- 📜 Quests Board
+- 📬 Contact Tavern
 
-<p align="center">
-<img width="600" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWxwczV4Z2pxbmt2eWlkbWJrZ2Nhd2F5aWptdmpvc2RrN3U4dXQyeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qfpxJFCwKeiCQ/giphy.gif" alt="Interactive Zones">
-</p>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
 
-- Unique themed areas for different content:
-  - 🏠 Home Village (Introduction)
-  - 🎓 Education Guild Hall
-  - 🛡️ Skills Armory
-  - 🔮 Projects Forge
-  - 📜 Quests Board
-  - 📬 Contact Tavern
-</details>
+### 🎮 Gamified Experience
+Level-up system representing career progression, skill trees with visual progression indicators, achievement system, and Easter eggs.
 
-<details>
-<summary><b>🎮 Gamified Experience</b></summary>
+</td>
+<td align="center" width="50%">
 
-<p align="center">
-<img width="600" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXpsZjA2dW1qdjRqbjMzcTUzbG5wbmt0a3Jtc3dhejJya2dycGk1eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5WfO6L63MSlJFjgPF0/giphy.gif" alt="Gamified Experience">
-</p>
+### 🌓 Dynamic Themes
+Light theme: Daytime medieval village • Dark theme: Nighttime enchanted realm with smooth transitions.
 
-- Level-up system representing career progression
-- Skill trees with visual progression indicators
-- Achievement system for professional milestones
-- Interactive elements and Easter eggs
-</details>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
 
-<details>
-<summary><b>🌓 Dynamic Themes</b></summary>
+### 🎵 Atmospheric Soundtrack
+Medieval background music enhancing immersion with toggle-able music system for user preference.
 
-<p align="center">
-<img width="600" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd294MmtrZGgwcGo0dWoxNXc1djhxcnZkaWhpcDVyc2ZsdW8yMDZxaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sZTnX2h1yPt4I/giphy.gif" alt="Dynamic Themes">
-</p>
+</td>
+<td align="center" width="50%">
 
-- Light theme: Daytime medieval village 
-- Dark theme: Nighttime enchanted realm
-- Smooth transitions between themes
-- Theme-specific animations and effects
-</details>
+### 🖼️ Project Showcase
+Interactive project cards with medieval-themed illustrations, magical animations, and direct links to demos.
 
-<details>
-<summary><b>🎵 Atmospheric Soundtrack</b></summary>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
 
-<p align="center">
-<img width="600" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDl0Nm0ycnR6ZnA4cDF0cXBzeGptOGw1c3g1YWFoc2NmMnQybmU1MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8maQUL5ofSoTC/giphy.gif" alt="Music System">
-</p>
+### 📱 Responsive Design
+Fully responsive across all devices with mobile-optimized navigation and touch-friendly elements.
 
-- Medieval background music enhancing immersion
-- Toggle-able music system for user preference
-- Consistent audio experience across all sections
-</details>
+</td>
+<td align="center" width="50%">
 
-<details>
-<summary><b>🖼️ Project Showcase</b></summary>
+### 🌟 Visual Effects
+Custom cursor with trail effects, parallax scrolling backgrounds, magic spell animations, and ambient particles.
 
-<p align="center">
-<img width="600" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmpjNGo0YnlxM21obGZrYmdnamJvZTBuZ2FxcGF6NXR6MXVxNnNuNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l4FGzTRVr14I2YQW4/giphy.gif" alt="Project Showcase">
-</p>
+</td>
+</tr>
+</table>
+</div>
 
-- Interactive project cards with detailed information
-- Medieval-themed project illustrations
-- Magical animations on project interaction
-- Direct links to live demos and repositories
-</details>
+---
 
-<details>
-<summary><b>📱 Responsive Design</b></summary>
+## 🖥️ Screenshots
 
-<p align="center">
-<img width="600" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGQyYmZwemFsdWdzZnVpZ2Z3dGg4YzZpZXI5YmcwMnhhZW40MGR1eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3fQcPqo0fEZOmQZG/giphy.gif" alt="Responsive Design">
-</p>
+<div align="center">
 
-- Fully responsive across all devices
-- Mobile-optimized navigation 
-- Touch-friendly interactive elements
-- Consistent experience on all screen sizes
-</details>
+| Light Theme | Dark Theme |
+|-------------|------------|
+| ![Light Theme](https://via.placeholder.com/400x250/FFF8DC/8B4513?text=Light+Theme+Preview) | ![Dark Theme](https://via.placeholder.com/400x250/1a1a2e/e94560?text=Dark+Theme+Preview) |
 
-<details>
-<summary><b>🌟 Visual Effects</b></summary>
+| Home Village | Projects Forge |
+|--------------|----------------|
+| ![Home](https://via.placeholder.com/400x250/4a5568/fff?text=Home+Village+Preview) | ![Projects](https://via.placeholder.com/400x250/2d3748/fff?text=Projects+Forge+Preview) |
 
-<p align="center">
-<img width="600" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHJ3N2d0Z2doYW5mZGhxaXJ0ZGdlN3c1NGN0MHRvcDAxaGw0aTA3YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/de5bARu0SsXiU/giphy.gif" alt="Visual Effects">
-</p>
+*More screenshots coming soon!*
 
-- Custom cursor with trail effects
-- Parallax scrolling backgrounds
-- Magic spell animations for interactions 
-- Ambient particle effects
-</details>
+</div>
+
+---
 
 ## 🚀 Technologies Used
 
-- **Frontend**: React, TypeScript, Tailwind CSS
-- **Animation**: Framer Motion, Custom CSS Animations
-- **State Management**: Zustand
-- **Deployment**: GitHub Pages
-- **Media**: SVG Graphics, Custom Audio
+<div align="center">
+
+| Category | Technologies |
+|----------|--------------|
+| **Frontend** | ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css) |
+| **Animation** | ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat) |
+| **State** | ![Zustand](https://img.shields.io/badge/Zustand-764ABC?style=flat&logo=zustand) |
+| **Deployment** | ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat&logo=github) |
+
+</div>
+
+---
 
 ## 🛠️ Installation & Setup
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/your-portfolio.git
+git clone https://github.com/ChristopherJoshy/ProtfolioG.git
 
 # Navigate to project directory
-cd your-portfolio
+cd DevQuest
 
 # Install dependencies
 npm install
@@ -154,17 +164,51 @@ npm run build
 npm run deploy
 ```
 
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. **Fork the repository**
+2. **Create your feature branch** (`git checkout -b feature/AmazingFeature`)
+3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
+4. **Push to the branch** (`git push origin feature/AmazingFeature`)
+5. **Open a Pull Request**
+
+### Ideas for Contributions
+
+- 🐛 Report bugs and issues
+- 💡 Suggest new features or zones
+- 🎨 Improve visual effects or animations
+- 📝 Enhance documentation
+- 🌐 Add translation support
+- ♿ Improve accessibility
+
+---
+
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
 
 ## 📬 Contact
 
 Feel free to reach out if you have questions or just want to connect!
 
-- GitHub: [@ChristopherJoshy](https://github.com/ChristopherJoshy)
-- Website: [Portfolio](https://christopherjoshy.github.io/ProtfolioG/)
+- **GitHub**: [@ChristopherJoshy](https://github.com/ChristopherJoshy)
+- **Website**: [DevQuest Portfolio](https://christopherjoshy.github.io/ProtfolioG/)
+- **LinkedIn**: [Christopher Joshy](https://linkedin.com/in/christopher-joshy)
 
 ---
 
-<p align="center">Made with ⚔️ and 💻</p> 
+<div align="center">
+
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=ChristopherJoshy.ProtfolioG&left_color=gold&right_color=purple&left_text=Visitors)
+
+---
+
+Made with ⚔️ and 💻 | Crafted with ❤️ by Christopher Joshy
+
+</div>

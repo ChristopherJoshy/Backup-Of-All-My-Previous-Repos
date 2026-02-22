@@ -1,9 +1,27 @@
 # 🌐 IEEE SB CEK Society Website Design Competition — SIGHT Affinity Group
 
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-5-purple?logo=vite)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-38bdf8?logo=tailwind-css)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
 A responsive and content-driven website built for the **IEEE Student Branch CEK Society Website Design Competition**, targeting the **IEEE SIGHT Affinity Group**.
 The site implements all required sections — **Home, About, Execom Members, Activities, Achievements, and Contact** — with a modern tech stack and clean UI.
 
 🔗 **Live Demo:** [sightwebdesigncompbychris.up.railway.app](https://sightwebdesigncompbychris.up.railway.app)
+
+---
+
+## 📊 Quick Stats
+
+| Metric | Value |
+|--------|-------|
+| **Stars** | ![GitHub stars](https://img.shields.io/github/stars/ChristopherJoshy/GitBackup?style=flat) |
+| **Forks** | ![GitHub forks](https://img.shields.io/github/forks/ChristopherJoshy/GitBackup?style=flat) |
+| **Last Updated** | Feb 2026 |
+| **License** | MIT |
 
 ---
 
@@ -33,6 +51,23 @@ The site implements all required sections — **Home, About, Execom Members, Act
 * **Contact:** Email, phone, and placeholders for socials/location
 * **Responsive Design:** Consistent typography, colors, and subtle animations
 * **Customizable:** Content and branding fully editable via JSON and theme files
+
+---
+
+## 📸 Screenshots
+
+> *Add screenshots of the website here*
+
+<!--
+Place screenshots in the `docs/` or `Assets/screenshots/` directory and reference them:
+
+![Home Page](Assets/screenshots/home.png)
+![About Page](Assets/screenshots/about.png)
+![Members Page](Assets/screenshots/members.png)
+![Activities Page](Assets/screenshots/activities.png)
+![Achievements Page](Assets/screenshots/achievements.png)
+![Contact Page](Assets/screenshots/contact.png)
+-->
 
 ---
 
@@ -81,6 +116,20 @@ This serves the prebuilt client (`dist/public`) via the Express server.
 * Update branding (logo, colors) in Tailwind/theme config and `Assets/`
 * Edit content in `client/src/data/*.json`
 * Extend components under `client/src/components` and pages under `client/src/pages`
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve this project:
+
+1. **Fork** the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Make your changes and commit them (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a **Pull Request**
+
+Please ensure your code follows the existing style conventions and passes any linting checks.
 
 ---
 

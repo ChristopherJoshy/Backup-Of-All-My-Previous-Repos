@@ -2,15 +2,36 @@
 
 **Hyper-Yield Detection & Remote Analysis**
 
-[![NASA Space Apps Challenge 2025](https://img.shields.io/badge/NASA%20Space%20Apps-2025-blue)](https://www.spaceappschallenge.org/)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![NASA Space Apps Challenge 2025 Winner](https://img.shields.io/badge/NASA%20Space%20Apps-2025%20Winner-blue)](https://www.spaceappschallenge.org/)
 [![Challenge 7](https://img.shields.io/badge/Challenge-Data%20Pathways%20to%20Healthy%20Cities-green)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.50.0-red)](https://streamlit.io/)
+[![NASA APIs](https://img.shields.io/badge/NASA%20APIs-CMR%20%7C%20HLS%20%7C%20GIBS-orange)](https://www.nasa.gov/)
+
+[![GitHub Stars](https://img.shields.io/github/stars/ChristopherJoshy/PROJECT-H.Y.D.R.A.?style=flat)](https://github.com/ChristopherJoshy/PROJECT-H.Y.D.R.A/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/ChristopherJoshy/PROJECT-H.Y.D.R.A?style=flat)](https://github.com/ChristopherJoshy/PROJECT-H.Y.D.R.A/network)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-brightgreen)](https://project-h-y-d-r-a.onrender.com/)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-2025-orange)]()
+
+---
+
+### 📊 Quick Stats
+
+| Metric | Value |
+|--------|-------|
+| **Analysis Time** | 1-2 minutes |
+| **Cost per Analysis** | FREE |
+| **Satellite Resolution** | 30m pixel |
+| **Global Coverage** | Any water body |
+| **Data Sources** | NASA HLS, Sentinel-2, MODIS |
 
 > **Real-time harmful algal bloom detection and monitoring using NASA satellite data to protect urban water supplies and public health**
 
 ### 🎯 Quick Links
-- Live Host **[► Render link](https://project-h-y-d-r-a.onrender.com/)**
+- 🚀 **Live Demo**: [► project-h-y-d-r-a.onrender.com](https://project-h-y-d-r-a.onrender.com/)
+- 📺 **Demo Video**: [► Watch on Canva](https://www.canva.com/design/DAG06nioybk/GQi2652XP6BKuhIiue995Q/view?embed)
+- 💻 **GitHub**: [► View Repository](https://github.com/ChristopherJoshy/PROJECT-H.Y.D.R.A.)
 
 ## 👥 Team
 
@@ -232,111 +253,125 @@ The images below show **actual screenshots from PROJECT H.Y.D.R.A.** demonstrati
 
 ## 🚀 Quick Start
 
+Get up and running in under 5 minutes!
+
 ### Prerequisites
+- Python 3.9+ with pip or uv
+- NASA Earthdata account (free)
+- Internet connection
 
-- Python 3.9+ with pip or uv package manager
-- NASA Earthdata account (free, required for satellite data downloads)
-- Internet connection for API access
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/ChristopherJoshy/PROJECT-H.Y.D.R.A.git
+cd PROJECT-H.Y.D.R.A
+```
 
-### 1. NASA Earthdata Credentials Setup
-
-**REQUIRED:** You must have NASA Earthdata credentials to download satellite imagery.
-
-1. **Create Account:**
-   - Visit [urs.earthdata.nasa.gov/users/new](https://urs.earthdata.nasa.gov/users/new)
-   - Complete registration (free)
-   - Verify email address
-
-2. **Authorize Applications:**
-   - Log in to Earthdata
-   - Go to Profile > Applications > Authorized Apps
-   - Ensure "LP DAAC Data Pool" is authorized
-
-### 2. Environment Configuration
-
-**Local Development:**
+### Step 2: Set Up NASA Credentials
+1. Create a free account at [urs.earthdata.nasa.gov](https://urs.earthdata.nasa.gov/users/new)
+2. Verify your email address
+3. Log in and go to **Profile → Applications → Authorized Apps**
+4. Ensure **"LP DAAC Data Pool"** is authorized
 
 Create a `.env` file in the project root:
-
 ```bash
-NASA_EARTHDATA_USERNAME=your_username_here
-NASA_EARTHDATA_PASSWORD=your_password_here
+NASA_EARTHDATA_USERNAME=your_username
+NASA_EARTHDATA_PASSWORD=your_password
 ```
 
-**Render Deployment:**
-
-1. Go to Render Dashboard → Your Service
-2. Click "Environment" in the left sidebar
-3. Add environment variables:
-   - Key: `NASA_EARTHDATA_USERNAME` → Value: your NASA Earthdata username
-   - Key: `NASA_EARTHDATA_PASSWORD` → Value: your NASA Earthdata password
-4. Click "Save Changes"
-5. The app will automatically restart with the new credentials
-
-**Replit Deployment:**
-
-1. Open project in Replit
-2. Click "Secrets" (lock icon) in left sidebar
-3. Add secrets:
-   - Key: `NASA_EARTHDATA_USERNAME` → Value: your username
-   - Key: `NASA_EARTHDATA_PASSWORD` → Value: your password
-
-**⚠️ Security Note:** Never commit `.env` files or expose credentials in code/logs.
-
-### 3. Installation
-
-**Option A: Using uv (Recommended)**
-
+### Step 3: Install Dependencies
 ```bash
+# Option A: Using uv (recommended)
 uv sync
-```
 
-**Option B: Using pip**
-
-```bash
+# Option B: Using pip
 pip install -r requirements.txt
 ```
 
-### 4. Run Application
-
+### Step 4: Run the Application
 ```bash
 streamlit run main.py --server.port 5000
 ```
 
-The app will open at `http://localhost:5000`
+### Step 5: Open in Browser
+Navigate to `http://localhost:5000` — you're ready to analyze!
+
+### Deployment Options
+
+#### Render Deployment
+1. Push your code to GitHub
+2. Create a new Web Service on [Render](https://render.com)
+3. Connect your GitHub repository
+4. Add environment variables:
+   - `NASA_EARTHDATA_USERNAME`
+   - `NASA_EARTHDATA_PASSWORD`
+5. Build command: `pip install -r requirements.txt`
+6. Start command: `streamlit run main.py --server.port $PORT`
+
+#### Replit Deployment
+1. Import project to Replit
+2. Go to **Secrets** (lock icon)
+3. Add `NASA_EARTHDATA_USERNAME` and `NASA_EARTHDATA_PASSWORD`
+4. Click **Run**
 
 ---
 
-## 🎯 Features
+## 📸 Screenshots
 
-### Core Capabilities
+<div align="center">
 
-- 🗺️ **Multi-Input Location**: Place name geocoding OR manual bounding box coordinates
-- 🌍 **Quick Location Presets**: Instant access to famous algal bloom hotspots (Lake Erie, Lake Okeechobee, Tampa Bay, etc.)
-- 🔐 **Credentials Status Panel**: Real-time authentication status with setup instructions
-- ☁️ **Cloud Masking**: QA band-based or brightness threshold cloud filtering
-- 🔍 **Resolution Control**: Quick preview (512×512) or full resolution processing
-- 🛰️ **Multi-Dataset Support**: HLS S30/L30, Sentinel-2, MODIS
-- 📊 **Index Computation**: 
-  - **NDCI** (Normalized Difference Chlorophyll Index) with proper Red+NIR bands
-  - **FAI** (Floating Algae Index) with red-edge baseline interpolation
-- 📈 **Time Series Analysis**: Track bloom evolution across multiple dates
-- 💾 **Location Presets**: Save and reuse frequent analysis areas
-- 📜 **Analysis History**: Database-backed session tracking
-- ⚡ **Enhanced Progress Tracking**: Real-time stage-by-stage progress with estimated time remaining
+| Lake Erie | Tampa Bay | Indian River Lagoon |
+|-----------|-----------|---------------------|
+| ![Lake Erie](Lake%20Erie%20(USA).png) | ![Tampa Bay](Tampa%20Bay%20(Florida).png) | ![Indian River Lagoon](Indian%20River%20Lagoon.png) |
 
-### Data Quality
-
-- ✅ **100% Real API Integration**: No mocked or simulated data
-- ✅ **NASA Official Sources**: CMR, Earthdata, GIBS endpoints
-- ✅ **Retry Logic**: Exponential backoff for network resilience
-- ✅ **Concurrent Processing**: ThreadPoolExecutor for efficient downloads
-- ✅ **Streaming Downloads**: Chunked writes to handle large files
-- ✅ **Windowed Raster Reads**: Memory-efficient decimated preview mode
+</div>
 
 ---
 
-## 📖 Usage Guide
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
+
+### Ways to Contribute
+- 🐛 **Report bugs** and issues
+- ✨ **Request new features**
+- 📖 **Improve documentation**
+- 🧪 **Add tests** for existing functionality
+- 🌐 **Translate** to other languages
+
+### Getting Started
+
+1. **Fork** the repository
+2. Create your feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a **Pull Request**
+
+### Development Setup
+```bash
+# Clone your fork
+git clone https://github.com/YOUR_USERNAME/PROJECT-H.Y.D.R.A.git
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate   # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run tests
+pytest tests/test_core.py -v
+```
+
+### Code Style
+- Follow PEP 8 guidelines
+- Use meaningful variable and function names
+- Add docstrings for new functions
+- Ensure tests pass before submitting PRs
+
+---
+
+## 📋 Usage Guide
 
 ### Basic Workflow
 
@@ -704,19 +739,11 @@ The final implementation represents a collaborative effort between human experti
 
 ---
 
-## 📜 License & Contributing
+## 📜 License
 
-This project is licensed under the MIT License - see LICENSE file for details.
+This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
 
-### How to Contribute
-We welcome contributions from the community! Whether you're interested in:
-- 🐛 Bug fixes and issue reports
-- ✨ New features and enhancements
-- 📖 Documentation improvements
-- 🌍 Translations and internationalization
-- 🧪 Testing and quality assurance
-
-Please open an issue or submit a pull request on GitHub.
+For contribution guidelines, see the [Contributing](#🤝-contributing) section above.
 
 ---
 

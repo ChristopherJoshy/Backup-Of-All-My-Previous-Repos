@@ -1,9 +1,29 @@
 # CiCaWa - Circular Waste Management Platform 🌱♻️
 
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat&logo=next.js)](https://nextjs.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-005791?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python)](https://www.python.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?style=flat&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-success.svg)](#)
 
-**Team: Neural Nomads**
+**Team: Neural Nomads** | **Hackathon Project**
 
 A comprehensive digital platform that revolutionizes waste management by creating a circular economy ecosystem connecting citizens, workers, NGOs, and businesses.
+
+## 📊 Quick Stats
+
+| Metric | Value |
+|--------|-------|
+| **Tech Stack** | Next.js 14 + FastAPI |
+| **Database** | SQLite + SQLAlchemy |
+| **AI Integration** | Google Gemini API |
+| **Authentication** | JWT-based |
+| **Real-time** | Socket.IO |
+| **Lines of Code** | ~5000+ |
+
+---
 
 ## 🏆 Team Members
 
@@ -129,6 +149,21 @@ Bot: "Old clothes options:
 - **Route Optimization**: Efficient worker assignment algorithm
 - **Service Area Management**: Location-based service availability
 - **Real-time Tracking**: Live updates on pickup status
+
+## 📸 Screenshots
+
+> *Screenshots coming soon!*
+> 
+> Show off your implementation? We welcome screenshots! Submit a PR to add them here.
+
+| Feature | Preview |
+|---------|---------|
+| Dashboard | *(Add screenshot)* |
+| AI Classifier | *(Add screenshot)* |
+| Marketplace | *(Add screenshot)* |
+| Mobile View | *(Add screenshot)* |
+
+---
 
 ## 🔌 API Documentation
 
@@ -340,7 +375,71 @@ localStorage.clear()
 - **Community**: Join our sustainability forums
 
 ### 🤝 Contributing
-We welcome contributions! Please read our contribution guidelines and submit pull requests for improvements.
+
+We welcome contributions! Whether you're a developer, designer, or sustainability enthusiast, there are many ways to help:
+
+#### 🛠️ How to Contribute
+
+1. **Fork the Repository**
+   ```bash
+   git clone https://github.com/your-username/CiCaWa-HashITup.git
+   cd CiCaWa-HashITup
+   ```
+
+2. **Create a Feature Branch**
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+3. **Make Your Changes**
+   - Follow existing code conventions
+   - Add comments for complex logic
+   - Test your changes thoroughly
+
+4. **Commit & Push**
+   ```bash
+   git add .
+   git commit -m "Add: your feature description"
+   git push origin feature/your-feature-name
+   ```
+
+5. **Submit a Pull Request**
+   - Describe your changes clearly
+   - Link any related issues
+   - Include screenshots for UI changes
+
+#### 📋 Contribution Guidelines
+
+- **Code Style**: Follow ESLint and Prettier
+- **Comm configurationsits**: Use clear, descriptive commit messages
+- **Testing**: Ensure no breaking changes before submitting
+- **Documentation**: Update docs for any API changes
+
+#### 🎯 Areas for Contribution
+
+| Area | Description |
+|------|-------------|
+| 🎨 UI/UX | Improve designs, add new components |
+| 🔧 Features | Add new functionality |
+| 🐛 Bug Fixes | Fix issues and improve stability |
+| 📚 Docs | Enhance documentation |
+| 🧪 Testing | Add unit and integration tests |
+| ⚡ Performance | Optimize slow code paths |
+
+#### 💬 Getting Help
+
+- Open an issue for bugs or feature requests
+- Join discussions in the community forum
+- Check existing issues before creating new ones
+
+---
+
+### 📞 Support & Contact
+
+### 💬 Get Help
+- **Technical Issues**: Check API documentation and error logs
+- **Feature Requests**: Submit through GitHub issues
+- **Community**: Join our sustainability forums
 
 ---
 .

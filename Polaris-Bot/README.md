@@ -1,12 +1,38 @@
-# Polaris
+# Polaris Discord Bot
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" alt="Python">
+  <img src="https://img.shields.io/badge/Discord.py-2.x-red.svg" alt="Discord.py">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
+  <img src="https://img.shields.io/github/repo-size/ChristopherJoshy/Polaris-Bot?color=orange" alt="Repo Size">
+  <img src="https://img.shields.io/github/last-commit/ChristopherJoshy/Polaris-Bot?color=yellow" alt="Last Commit">
+</p>
 
 A Discord bot for snowball combat with RPG progression, gambling, and a friendly Santa chat.
+
+---
+
+## Quick Stats
+
+| Metric | Value |
+|--------|-------|
+| **Combat System** | Turn-based snowball fights with critical hits & fumbles |
+| **Progression** | 50 levels with 8 unique weapons |
+| **Currency** | Icicles - earned through combat, gambling, and daily rewards |
+| **Features** | Shop system, achievements, leaderboards, Santa AI chat |
+| **Min Bet** | 5 Icicles for gambling |
 
 ---
 
 ## What is Polaris?
 
 Polaris turns your Discord server into a snowball arena. Players throw snowballs at each other, earn Icicles (currency), level up to unlock better weapons, and compete on leaderboards.
+
+---
+
+## Screenshots
+
+*Coming soon - add your screenshots here!*
 
 ---
 
@@ -85,6 +111,7 @@ When you level up, you may unlock:
 Use `/shop` to buy items. All items cost Icicles.
 
 ### Healing
+
 | Item | Cost | Effect |
 |------|------|--------|
 | Hot Cocoa | 10 | +25 HP |
@@ -92,6 +119,7 @@ Use `/shop` to buy items. All items cost Icicles.
 | Full Restore | 50 | Restore to max HP |
 
 ### Buffs
+
 | Item | Cost | Effect |
 |------|------|--------|
 | Energy Drink | 30 | +50% damage on next hit |
@@ -99,6 +127,7 @@ Use `/shop` to buy items. All items cost Icicles.
 | Lucky Charm | 35 | +10% crit chance for 5 hits |
 
 ### Gear
+
 | Item | Cost | Effect |
 |------|------|--------|
 | Frost Shield | 40 | Blocks 1 incoming attack |
@@ -113,6 +142,7 @@ Use `/shop` to buy items. All items cost Icicles.
 Use `/gamble` to access gambling features. Minimum bet is 5 Icicles.
 
 ### Slot Machine
+
 Solo game. Bet your Icicles and spin.
 
 | Result | Payout |
@@ -124,6 +154,7 @@ Solo game. Bet your Icicles and spin.
 | 3 diamonds | 10x bet (JACKPOT) |
 
 ### Coin Flip
+
 1v1 game. Challenge another player by entering their user ID.
 
 Both players bet the same amount. A coin is flipped and the winner takes the entire pot. The loser loses their bet.
@@ -170,23 +201,67 @@ Mention the bot (`@Polaris`) followed by a message to chat with Santa. Responses
 
 ## Setup
 
-**Requirements**: Python 3.10+
+### Requirements
+
+- Python 3.10+
+- Discord Bot Token
+- Gemini API Key (for Santa chat)
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/ChristopherJoshy/Polaris-Bot.git
+cd Polaris-Bot
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-Create `.env` file:
-```
+### Configuration
+
+Create a `.env` file in the project root:
+
+```env
 DISCORD_TOKEN=your_discord_bot_token
 GEMINI_API_KEY=your_gemini_api_key
 ```
 
-Run:
+### Running the Bot
+
 ```bash
 python bot.py
 ```
 
 ---
 
-Built by Christopher Joshy
+## Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. **Fork** the repository
+2. **Create a feature branch** (`git checkout -b feature/amazing-feature`)
+3. **Commit your changes** (`git commit -m 'Add some amazing feature'`)
+4. **Push to the branch** (`git push origin feature/amazing-feature`)
+5. **Open a Pull Request**
+
+### Ideas for Contributions
+
+- Add new weapons and items
+- Implement additional mini-games
+- Create new achievement types
+- Improve the Santa AI responses
+- Add localization support
+- Design new visual elements
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Acknowledgments
+
+Built with ❤️ by [Christopher Joshy](https://github.com/ChristopherJoshy)
